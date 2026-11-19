@@ -1,0 +1,20 @@
+# Local build / install / log artifacts
+build/
+install/
+log/
+.tmp_build/
+
+# CMake / colcon generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# C++ / OS files
+*.o
+*.so
+*.a
+*.exe
+.DS_Store
+Thumbs.db
